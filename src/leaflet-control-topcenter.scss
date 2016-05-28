@@ -1,0 +1,43 @@
+/***********************************************
+	leaflet-control-topcenter.scss, 
+
+	(c) 2016, FCOO
+
+	https://github.com/FCOO/leaflet-control-topcenter
+	https://github.com/FCOO
+
+
+************************************************/
+//BOURBON - http://bourbon.io/
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+//MODERNIZR-MIXIN - https://github.com/danielguillan/modernizr-mixin
+@import "../bower_components/modernizr-mixin/stylesheets/modernizr";
+
+//MATHSASS - https://github.com/terkel/mathsass
+@import "../bower_components/mathsass/dist/math";
+
+/* control positioning */
+.leaflet-center {
+  position: relative !important;
+  float		: right;
+	
+	right	: 0;
+  left	: -50%; 
+
+	text-align: left;
+	
+	.leaflet-control {
+		float		: left;
+		left		: 50%;
+		bottom	: 0;
+	}
+}
+
+
+.leaflet-control-container .leaflet-control-bottomcenter {
+	position: absolute;
+	bottom	: 0;
+	left		: 0;
+	right		: 0;
+}

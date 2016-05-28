@@ -1,0 +1,44 @@
+{
+	"bitwise"				: true,
+	"curly"					: false,
+  "eqeqeq"				: false,
+	"es3"						: false,
+	"es5"						: false,
+	"esnext"				: false,
+	"forin"					: false,
+	"freeze"				: true,
+	"funcscope"			: false,	
+	"futurehostile"	: true,
+	"iterator"			: false,
+  "latedef"				: true,
+	"lastsemic"			: true,
+	"noarg"					: true,
+	"nocomma"				: false,
+	"nonew"					: true,
+	"notypeof"			: true,
+	"shadow"				: false,
+	"strict"				: true,
+
+	"sub"						: true,
+	"undef"					: true,
+	"unused"				: true,
+
+	"boss"					: true,
+  "eqnull"				: true,
+  "node"					: true,
+
+	"globals": {
+		"jQuery"		: true,
+		"console"		: false,
+		"module"		: true,
+		"document"	: false,
+		"L"					: true,
+		"$"					: false,
+		"moment"		: false,
+		"_"					: false,
+		"DEBUG"			: false,
+		"alert"			: false
+	}
+}
+
+

@@ -1,0 +1,36 @@
+{
+  "name": "leaflet-control-topcenter",
+  "version": "1.0.0",
+  "homepage": "https://github.com/FCOO/leaflet-control-topcenter",
+  "authors": [
+    "NielsHolt"
+  ],
+  "description": "",
+  "main": [
+    "dist/leaflet-control-topcenter.min.js",
+    "dist/leaflet-control-topcenter.min.css"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/leaflet-control-topcenter.git"
+  },
+  "dependencies": {
+    "leaflet": "latest"
+  },
+  "devDependencies": {
+    "bourbon": "latest",
+    "modernizr-mixin": "latest",
+    "mathsass": "latest"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
