@@ -1,14 +1,14 @@
 {
   "name": "leaflet-control-topcenter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/FCOO/leaflet-control-topcenter",
   "authors": [
     "NielsHolt"
   ],
   "description": "",
   "main": [
-    "dist/leaflet-control-topcenter.min.js",
-    "dist/leaflet-control-topcenter.min.css"
+    "dist/leaflet-control-topcenter.js",
+    "dist/leaflet-control-topcenter.css"
   ],
   "repository": {
     "type": "git",
