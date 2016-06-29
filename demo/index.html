@@ -25,6 +25,10 @@ body {
 	padding-right	: 0;
 	padding-top		: 0;
 }
+.leaflet-control-attribution {
+	border: 1px solid black;
+	background-color: white;
+}
 </style>
 </head>
 
@@ -40,8 +44,11 @@ body {
        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors</a>'
      }).addTo(map);
 
+	map.addControl(new L.Control.Attribution({ position: 'topcenter' }));
 	map.addControl(new L.Control.Zoom({ position: 'topcenter' }));
+
 	map.addControl(new L.Control.Zoom({ position: 'bottomcenter' }));
+	map.addControl(new L.Control.Attribution({ position: 'bottomcenter' }));
 
 	
 	</script>

@@ -5,6 +5,8 @@
 ## Description
 Extend leaflet to allow controls to be placed position top-center and bottom-center
 
+**No support for IE( (Using `flex`)** 
+
 ## Installation
 ### bower
 `bower install https://github.com/FCOO/leaflet-control-topcenter.git --save`
@@ -22,7 +24,7 @@ Create controls with with `position: "topcenter"` or `position: "bottomcenter"`
 ## Copyright and License
 This plugin is licensed under the [MIT license](https://github.com/FCOO/leaflet-control-topcenter/LICENSE).
 
-Copyright (c) 2015 [FCOO](https://github.com/FCOO)
+Copyright (c) 2016 [FCOO](https://github.com/FCOO)
 
 ## Contact information
 

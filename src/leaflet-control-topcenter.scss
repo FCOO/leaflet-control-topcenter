@@ -20,16 +20,16 @@
 /* control positioning */
 .leaflet-center {
   position: relative !important;
-  float		: right;
-	
+	left	: 0;
 	right	: 0;
-  left	: -50%; 
 
-	text-align: left;
-	
+ @include align-items(center);
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+
+
 	.leaflet-control {
-		float		: left;
-		left		: 50%;
 		bottom	: 0;
 	}
 }

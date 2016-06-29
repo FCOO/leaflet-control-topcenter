@@ -1,6 +1,6 @@
 {
   "name": "leaflet-control-topcenter",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "homepage": "https://github.com/FCOO/leaflet-control-topcenter",
   "author": "NielsHolt nho@fcoo.dk",
   "description": "package.json is only use for building the package. see bower.json for more info",
