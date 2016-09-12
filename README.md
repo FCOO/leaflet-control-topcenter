@@ -5,7 +5,7 @@
 ## Description
 Extend leaflet to allow controls to be placed position top-center and bottom-center
 
-**No support for IE( (Using `flex`)** 
+**No support for IE8 (Using `flex`)** 
 
 ## Installation
 ### bower
