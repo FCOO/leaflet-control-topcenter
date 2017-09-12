@@ -1,0 +1,26 @@
+{
+    "env": {
+        "browser": true,
+        "jquery" : true
+    },
+
+    "extends": "eslint:recommended",
+ 
+    "globals": {
+        "$"         : false,
+        "L"         : false,
+        "undefined" : false,
+        "moment"    : false,
+        "Raven"     : false
+    },
+
+    "allowInlineConfig": true,
+
+    "rules": {
+        "strict"                  : "error",
+        "camelcase"               : "off",
+        "no-mixed-spaces-and-tabs": "warn",
+        "semi"                    : "warn",
+        "no-extra-semi"           : "warn"
+    }
+}

@@ -19,18 +19,17 @@
 
 /* control positioning */
 .leaflet-center {
-  position: relative !important;
+    position: relative !important;
 	left	: 0;
 	right	: 0;
 
- @include align-items(center);
-  @include display(flex);
-  @include flex-direction(column);
-  @include justify-content(center);
-
+    align-items    : center;
+    display        : flex;
+    flex-direction : column;
+    justify-content: center;
 
 	.leaflet-control {
-		bottom	: 0;
+		bottom: 0;
 	}
 }
 
@@ -38,6 +37,6 @@
 .leaflet-control-container .leaflet-control-bottomcenter {
 	position: absolute;
 	bottom	: 0;
-	left		: 0;
-	right		: 0;
+	left	: 0;
+	right	: 0;
 }
